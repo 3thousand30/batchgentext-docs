@@ -1,1 +1,13 @@
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+title: BatchGen Text with AI
+description: Documentation for BatchGen Text with AI — batch content generation powered by AI.
+
+color_scheme: light
+
+nav_sort: order
+
+aux_links:
+  "Microsoft Store": "https://www.microsoft.com/store/apps/batchgentext"
+
+footer_content: "BatchGen Text with AI &copy; 2025"
