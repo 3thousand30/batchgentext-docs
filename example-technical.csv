@@ -1,0 +1,5 @@
+title,theme,keywords,notes
+"How HTTPS Works: A Plain-Language Explanation",Technology,"HTTPS, SSL, TLS, encryption","Explain for a non-technical reader. Use an analogy early. Cover certificates, handshake, and why it matters."
+"Docker Containers vs Virtual Machines: What Is the Difference",DevOps,"Docker, containers, VMs, infrastructure","Clear comparison with a practical analogy. When to use each. Avoid assuming deep Linux knowledge."
+"A Practical Guide to API Rate Limiting",Development,"API, rate limiting, throttling, best practices","What rate limiting is, why providers implement it, how to handle 429 errors gracefully in code."
+"How to Set Up a Local Development Environment on Windows",Development,"Windows, dev environment, Node, Git","Step-by-step guide. Assume a complete beginner. Cover Node, Git, VS Code, and a basic test project."

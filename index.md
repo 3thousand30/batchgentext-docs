@@ -45,4 +45,4 @@ A batch of 20 articles takes a few minutes. Output lands in your Documents folde
 
 ## Support
 
-Found a bug or have a question? [Open an issue](https://github.com/niceBatch/batchgentext-docs/issues) and we'll get back to you.
+Found a bug or have a question? [Open an issue](https://github.com/3thousand30/batchgentext-docs/issues) and we'll get back to you.

@@ -105,7 +105,7 @@ To retry only the failed items, create a new content list with just those titles
 
 ## Still stuck?
 
-[Open an issue](https://github.com/niceBatch/batchgentext-docs/issues) and include:
+[Open an issue](https://github.com/3thousand30/batchgentext-docs/issues) and include:
 - The error message you're seeing
 - Which AI provider you're using
 - Your content list format (CSV or YAML)

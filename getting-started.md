@@ -77,29 +77,57 @@ Up to 3 samples are used per generation run. More is fine — the app picks from
 
 The content list is a CSV or YAML file listing everything you want to generate. At minimum, each item needs a title.
 
-**CSV format:**
+### Download example files
+
+Ready-to-use example files are available for every template. Download one, open it via **Select content list**, choose the matching template, and hit Generate.
+
+| Template | Example file |
+|---|---|
+| Blog Article | [example-list.csv](example-list.csv) · [example-list.yaml](example-list.yaml) |
+| LinkedIn Post | [example-linkedin.csv](example-linkedin.csv) |
+| X (Twitter) Post | [example-x-posts.csv](example-x-posts.csv) |
+| Facebook Post | [example-facebook.csv](example-facebook.csv) |
+| Short Story | [example-stories.csv](example-stories.csv) |
+| Technical Document | [example-technical.csv](example-technical.csv) |
+
+> Each run uses one template for the entire list. Keep separate files per content type.
+
+### Field reference
+
+| Field | Aliases accepted | Required |
+|---|---|---|
+| `title` | `topic`, `subject` | Yes |
+| `theme` | `category` | No |
+| `keywords` | `tags`, `keyword` | No |
+| `notes` | `note`, `guidance`, `context` | No |
+
+### CSV format
 
 ```csv
 title,theme,keywords,notes
-"Why Sleep Matters","Health","sleep, recovery, habits","Focus on science-backed tips"
-"Morning Routines That Stick","Productivity","habits, morning","Keep it practical"
+"How to Price Your First Rental Property","RealEstate","property,investment,rental yield","Walk a first-time landlord through yield calculation and common pricing mistakes."
+"5 Mistakes New Dog Owners Make in the First Month","Pets","dog training,puppy,habits","Warm reassuring tone. Practical fixes. Focus on first critical weeks."
 ```
 
-**YAML format:**
+### YAML format
 
 ```yaml
-- title: "Why Sleep Matters"
-  theme: "Health"
-  keywords: "sleep, recovery, habits"
-  notes: "Focus on science-backed tips"
+- title: "How to Price Your First Rental Property"
+  theme: RealEstate
+  keywords: "property, investment, rental yield"
+  notes: |
+    Walk a first-time landlord through the key numbers.
+    Cover yield calculation, vacancy rate, and common pricing mistakes.
 
-- title: "Morning Routines That Stick"
-  theme: "Productivity"
-  keywords: "habits, morning"
-  notes: "Keep it practical"
+- title: "5 Mistakes New Dog Owners Make in the First Month"
+  theme: Pets
+  keywords: "dog training, puppy, habits"
+  notes: |
+    Warm and reassuring tone — not shaming.
+    Practical fixes for each mistake.
 ```
 
-All fields except `title` are optional. The app also accepts common aliases — `topic` or `subject` instead of `title`, `tags` instead of `keywords`, `guidance` instead of `notes`.
+All fields except `title` are optional — a one-column CSV with just titles works fine for a quick test run.
 
 ---
 
