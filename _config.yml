@@ -11,11 +11,9 @@ logo: "https://3030.s3.eu-central-1.amazonaws.com/icon-1240.png"
 
 aux_links:
   "Get on Microsoft Store": "https://apps.microsoft.com/detail/9N3B1B8DT39F"
-  "3thousand30.com": "https://3thousand30.com"
 
 aux_links_new_tab: true
 
 footer_content: >
   &copy; 2026 <a href="https://3thousand30.com">3thousand30</a> &mdash;
-  <a href="mailto:hello@3thousand30.com">hello@3thousand30.com</a> &mdash;
   <a href="https://github.com/3thousand30/batchgentext-docs/issues">Support</a>
