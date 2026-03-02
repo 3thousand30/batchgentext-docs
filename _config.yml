@@ -7,7 +7,7 @@ color_scheme: light
 
 nav_sort: order
 
-logo: "https://3030.s3.eu-central-1.amazonaws.com/icon-1240.png"
+logo: "/assets/images/logo.png"
 
 aux_links:
   "Get on Microsoft Store": "https://apps.microsoft.com/detail/9N3B1B8DT39F"
