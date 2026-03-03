@@ -48,3 +48,7 @@ A batch of 20 articles takes a few minutes. Output lands in your Documents folde
 ## Support
 
 Found a bug or have a question? Email [hello@3thousand30.com](mailto:hello@3thousand30.com) or [open an issue](https://github.com/3thousand30/batchgentext-docs/issues) on GitHub.
+
+---
+
+[Privacy Policy](privacy)
