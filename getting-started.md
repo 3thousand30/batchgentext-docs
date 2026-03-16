@@ -52,11 +52,17 @@ Writing samples let the app reverse-engineer your writing style and produce cont
 
 To use samples:
 
-1. Prepare a YAML file with your existing articles (see format below)
-2. In Step 2, click **Select samples file** or point the app to a folder containing sample files
-3. The preview panel will confirm what was loaded
+1. In Step 2, click **Select samples file** or **Select samples folder**
+2. The preview panel will confirm what was loaded
 
-**Sample file format:**
+**Supported formats:**
+
+| Method | Supported formats |
+|---|---|
+| Single file | `.txt`, `.md`, `.pdf`, `.docx`, `.yaml` |
+| Folder | `.txt`, `.md`, `.pdf`, `.docx` (up to 5 files) |
+
+For `.txt`, `.md`, `.pdf`, and `.docx` files, the entire document becomes one writing sample. For a YAML file, you can include multiple named samples:
 
 ```yaml
 - title: "My First Article"
@@ -136,11 +142,13 @@ All fields except `title` are optional — a one-column CSV with just titles wor
 1. In Step 3, click **Select content list** and choose your file
 2. Choose a **template** (Blog Article is a good start)
 3. Select your **output folder** (defaults to `Documents\BatchGenText`)
-4. Click **Generate**
+4. _(Optional)_ Change the **output format** — Auto uses the template's default (.md or .txt), or override to Markdown (.md) or Plain text (.txt)
+5. Click **Preview first item** to generate just the first article and review it in-app before committing to the full batch
+6. Click **Generate** (or **Generate Full Batch** from the preview dialog) to generate everything
 
 The app processes each item one by one. A live log shows progress and token usage per article. When complete, a summary banner shows the full token count and a button to open the output folder.
 
-Output files are saved in a timestamped subfolder (e.g. `2025-06-01_14-30-00`) so each run is kept separate.
+Output files are saved in a timestamped subfolder (e.g. `2026-03-01_14-30-00`) so each run is kept separate. Preview and full batch share the same folder — the first article is not regenerated.
 
 ---
 

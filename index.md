@@ -31,6 +31,7 @@ A batch of 20 articles takes a few minutes. Output lands in your Documents folde
 - **7 content templates** — Blog Article, LinkedIn Post, X/Twitter Post (with thread mode), Facebook Post, Short Story, Technical Document, and a fully editable Custom template
 - **Writing Style DNA** — paste in a few of your own articles and the AI reverse-engineers your voice, sentence patterns, and vocabulary
 - **Quote injection** — load a YAML quote bank; relevant quotes are woven in naturally per article
+- **Preview before generating** — generate just the first item and review it in-app before committing to the full batch
 - **Multi-language output** — generate content in 13 European languages
 - **Secure API key storage** — keys are encrypted on-device using Windows DPAPI, never transmitted anywhere except directly to your chosen AI provider
 
