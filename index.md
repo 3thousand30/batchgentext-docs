@@ -8,7 +8,7 @@ nav_order: 1
 
 **BatchGen Text with AI** is a Windows desktop app by [3thousand30](https://3thousand30.com) for generating batches of written content using AI — blog posts, LinkedIn posts, tweets, short stories, technical docs, and more.
 
-You bring your own AI API key (BYOK). The app connects directly to the provider of your choice — no middleman, no subscription, no data stored anywhere except your own machine.
+You bring your own AI API key (BYOK). The app connects directly to the provider of your choice — no middleman, no subscription, and no file storage operated by us.
 
 [Get it on Microsoft Store](https://apps.microsoft.com/detail/9N3B1B8DT39F){: .btn .btn-blue }
 
@@ -21,7 +21,7 @@ You bring your own AI API key (BYOK). The app connects directly to the provider 
 3. **Pick your content list** — a simple CSV or YAML file with titles and optional notes
 4. **Generate** — the app sends each item through the AI and saves the output to a timestamped folder
 
-A batch of 20 articles takes a few minutes. Output lands in your Documents folder, ready to use.
+A batch of 20 articles takes a few minutes. Output lands in your Documents folder, ready to use. The app may also request the Inter UI font from Google Fonts for display consistency when an internet connection is available.
 
 ---
 
